@@ -21,7 +21,7 @@ public class SimplePromptCallback extends BiometricPrompt.AuthenticationCallback
         if (errorCode == BiometricPrompt.ERROR_NEGATIVE_BUTTON || errorCode == BiometricPrompt.ERROR_USER_CANCELED) {
             WritableMap resultMap = new WritableNativeMap();
             resultMap.putBoolean("success", false);
-            resultMap.putString("error with code", Integer.toString(errorCode));
+            resultMap.putString("errorCode", Integer.toString(errorCode));
             this.promise.resolve(resultMap);
         } else {
             this.promise.reject(errString.toString(), errString.toString());
