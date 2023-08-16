@@ -1,6 +1,6 @@
 {
-  "name": "react-native-biometrics",
-  "version": "3.0.1",
+  "name": "app-biometric",
+  "version": "0.0.2",
   "summary": "A React Native library for biometrics",
   "description": "React Native biometric functionality for signing and encryption",
   "main": "build/cjs/index.js",
@@ -13,34 +13,24 @@
     "build:esm": "tsc --target es5 --outDir build/esm --module esnext",
     "release": "npm run clean && npm run build && npm publish"
   },
-  "keywords": [
-    "react-native",
-    "android",
-    "ios",
-    "biometrics",
-    "authentication",
-    "auth",
-    "fingerprint",
-    "touch-id",
-    "face-id"
-  ],
-  "homepage": "https://github.com/SelfLender/react-native-biometrics",
+  "keywords": [],
+  "homepage": "https://www.npmjs.com/package/app-biometric",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SelfLender/react-native-biometrics.git"
+    "url": ""
   },
   "private": false,
   "author": {
-    "name": "Brandon Hines",
-    "url": "https://github.com/NappyPirate"
+    "name": "",
+    "url": ""
   },
-  "license": "MIT",
+  "license": "",
   "peerDependencies": {
     "react-native": ">=0.60.0"
   },
   "bugs": {
-    "url": "https://github.com/SelfLender/react-native-biometrics/issues"
+    "url": ""
   },
   "devDependencies": {
     "typescript": "^3.7.2"
